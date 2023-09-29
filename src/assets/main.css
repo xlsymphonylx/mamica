@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  color: inherit; /* This will inherit the color from its parent element */
+  text-decoration: none; /* Removes underline */
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+.text-center{
+  text-align: center;
+}
